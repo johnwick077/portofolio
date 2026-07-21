@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joel Mathew | MCA Student & Tech Enthusiast</title>
+    <meta name="description" content="Personal portfolio website of Joel Mathew - MCA Student, Web Developer, and Cybersecurity Enthusiast.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Elements -->
+    <div class="bg-grid"></div>
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="brand-logo">
+                <span class="logo-text">&lt;Joel<span class="highlight">Mathew</span> /&gt;</span>
+            </a>
+            <nav class="nav-menu" id="navMenu">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contact" class="nav-link btn-contact-nav">Contact Me</a>
+            </nav>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="badge-status">
+                        <span class="status-dot"></span> MCA Student & Security Enthusiast
+                    </div>
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="gradient-text">Joel Mathew</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Building secure web applications and exploring ethical hacking, vulnerability scanning, and modern software development.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fa-solid fa-code"></i> View Projects
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fa-regular fa-paper-plane"></i> Get In Touch
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/johnwick077/" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/joel-mathew-tech/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:joel.mathew2277@gmail.com" aria-label="Email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-card">
+                    <div class="terminal-window">
+                        <div class="terminal-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                            <span class="terminal-title">joel@developer:~</span>
+                        </div>
+                        <div class="terminal-body">
+                            <p><span class="prompt">$</span> <span class="cmd">cat intro.json</span></p>
+                            <pre class="json-code">
+{
+  <span class="key">"name"</span>: <span class="str">"Joel Mathew"</span>,
+  <span class="key">"location"</span>: <span class="str">"Kottayam, Kerala, India"</span>,
+  <span class="key">"degree"</span>: <span class="str">"Master of Computer Applications"</span>,
+  <span class="key">"focus"</span>: [<span class="str">"Ethical Hacking"</span>, <span class="str">"Web Dev"</span>, <span class="str">"App Dev"</span>],
+  <span class="key">"status"</span>: <span class="str">"Open for Opportunities"</span>
+}
+                            </pre>
+                            <p><span class="prompt">$</span> <span class="cursor">_</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About & Education Section -->
+        <section id="about" class="section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+                    <p class="section-subtitle">Education & Career Objective</p>
+                </div>
+                <div class="about-grid">
+                    <div class="about-text-card">
+                        <h3><i class="fa-solid fa-user-astronaut icon-accent"></i> Career Objective</h3>
+                        <p>
+                            Motivated and enthusiastic Master of Computer Applications (MCA) student seeking an entry-level position in the IT industry where I can apply my technical and problem-solving skills, learn emerging technologies, and contribute to organizational growth while advancing my professional career.
+                        </p>
+                        <div class="location-tag">
+                            <i class="fa-solid fa-location-dot"></i> Kottayam, Kerala, India
+                        </div>
+                    </div>
+
+                    <div class="education-timeline">
+                        <h3><i class="fa-solid fa-graduation-cap icon-accent"></i> Education</h3>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">August 2025 – Present</span>
+                                <h4>Master of Computer Applications (MCA)</h4>
+                                <p class="institution">Rajiv Gandhi Institute of Technology, Kottayam</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">August 2022 – May 2025</span>
+                                <h4>Bachelor of Computer Applications (BCA)</h4>
+                                <p class="institution">Bishop Speechly College for Advanced Studies, Kottayam</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Experience Section -->
+        <section id="experience" class="section-padding bg-alt">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Work <span class="gradient-text">Experience</span></h2>
+                    <p class="section-subtitle">Hands-on industry experience</p>
+                </div>
+                <div class="experience-card">
+                    <div class="exp-header">
+                        <div>
+                            <h3 class="exp-title">Android App Development Internship</h3>
+                            <p class="exp-company"><i class="fa-solid fa-building"></i> ICT Academy of Kerala, Thiruvananthapuram</p>
+                        </div>
+                        <span class="exp-duration"><i class="fa-regular fa-calendar"></i> Apr 2024 - May 2024</span>
+                    </div>
+                    <ul class="exp-bullets">
+                        <li>Gained hands-on experience in building Android applications using mobile development principles.</li>
+                        <li>Worked with Java, activity lifecycles, UI components, and SQLite integration.</li>
+                        <li>Collaborated on real-world practical app modules and application workflow design.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+                    <p class="section-subtitle">Applications & tools I have developed</p>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Vulnex -->
+                    <div class="project-card">
+                        <div class="project-banner security-glow">
+                            <i class="fa-solid fa-shield-halved project-icon"></i>
+                            <span class="project-category">Cybersecurity / Web App</span>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">Vulnex</h3>
+                            <p class="project-description">
+                                Django vulnerability scanning web application leveraging the OWASP ZAP API, PostgreSQL database, PDF reporting engine, scan history logging, and Google OAuth login integration.
+                            </p>
+                            <div class="tech-tags">
+                                <span>Django</span>
+                                <span>OWASP ZAP API</span>
+                                <span>PostgreSQL</span>
+                                <span>Python</span>
+                                <span>Google Auth</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Ayursoul -->
+                    <div class="project-card">
+                        <div class="project-banner web-glow">
+                            <i class="fa-solid fa-spa project-icon"></i>
+                            <span class="project-category">Full-Stack Web App</span>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">Ayursoul</h3>
+                            <p class="project-description">
+                                Spa management platform with complete online service booking system, payment processing, invoice generation, real-time appointment tracking, and comprehensive admin management controls.
+                            </p>
+                            <div class="tech-tags">
+                                <span>HTML/CSS</span>
+                                <span>JavaScript</span>
+                                <span>Backend / SQL</span>
+                                <span>Payments</span>
+                                <span>Admin Panel</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- DailyPulse -->
+                    <div class="project-card">
+                        <div class="project-banner mobile-glow">
+                            <i class="fa-solid fa-mobile-screen-button project-icon"></i>
+                            <span class="project-category">Android Mobile App</span>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">DailyPulse</h3>
+                            <p class="project-description">
+                                Native Android task management application featuring system notifications, task scheduling, local data persistence using SQLite, built in Java with Android Studio.
+                            </p>
+                            <div class="tech-tags">
+                                <span>Android Studio</span>
+                                <span>Java</span>
+                                <span>SQLite</span>
+                                <span>Notifications</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section-padding bg-alt">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+                    <p class="section-subtitle">Technologies & tools I work with</p>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="skill-category-card">
+                        <h3><i class="fa-solid fa-code icon-accent"></i> Development & Web</h3>
+                        <div class="skill-tags">
+                            <div class="skill-item"><i class="fa-brands fa-python"></i> Python</div>
+                            <div class="skill-item"><i class="fa-brands fa-html5"></i> HTML5</div>
+                            <div class="skill-item"><i class="fa-brands fa-css3-alt"></i> CSS3</div>
+                            <div class="skill-item"><i class="fa-brands fa-js"></i> JavaScript</div>
+                            <div class="skill-item"><i class="fa-solid fa-database"></i> SQL</div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category-card">
+                        <h3><i class="fa-solid fa-user-shield icon-accent"></i> Cybersecurity & OS</h3>
+                        <div class="skill-tags">
+                            <div class="skill-item"><i class="fa-brands fa-linux"></i> Linux</div>
+                            <div class="skill-item"><i class="fa-solid fa-terminal"></i> Bash</div>
+                            <div class="skill-item"><i class="fa-solid fa-bug"></i> Burp Suite (Basics)</div>
+                            <div class="skill-item"><i class="fa-solid fa-shield"></i> Penetration Testing</div>
+                            <div class="skill-item"><i class="fa-solid fa-magnifying-glass"></i> Vulnerability Assessment</div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category-card">
+                        <h3><i class="fa-solid fa-puzzle-piece icon-accent"></i> Soft Skills & Practice</h3>
+                        <div class="skill-tags">
+                            <div class="skill-item"><i class="fa-solid fa-flag"></i> Hack The Box</div>
+                            <div class="skill-item"><i class="fa-solid fa-bullseye"></i> TryHackMe</div>
+                            <div class="skill-item"><i class="fa-solid fa-users"></i> Teamwork</div>
+                            <div class="skill-item"><i class="fa-solid fa-ear-listen"></i> Active Listening</div>
+                            <div class="skill-item"><i class="fa-solid fa-handshake"></i> Collaboration</div>
+                            <div class="skill-item"><i class="fa-solid fa-comments"></i> Communication</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+                    <p class="section-subtitle">Feel free to reach out for opportunities or questions</p>
+                </div>
+
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <h3>Let's Connect</h3>
+                        <p>I am actively seeking entry-level software development and cybersecurity opportunities. Feel free to connect or drop a message!</p>
+                        
+                        <div class="contact-details">
+                            <div class="c-detail">
+                                <i class="fa-solid fa-envelope"></i>
+                                <div>
+                                    <span>Email</span>
+                                    <a href="mailto:joel.mathew2277@gmail.com">joel.mathew2277@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="c-detail">
+                                <i class="fa-solid fa-phone"></i>
+                                <div>
+                                    <span>Phone</span>
+                                    <a href="tel:+917994551505">+91 7994551505</a>
+                                </div>
+                            </div>
+                            <div class="c-detail">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <div>
+                                    <span>Location</span>
+                                    <p>Kottayam, Kerala, India</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-socials">
+                            <a href="https://github.com/johnwick077/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub</a>
+                            <a href="https://www.linkedin.com/in/joel-mathew-tech/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                        </div>
+                    </div>
+
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" required placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" required placeholder="john@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" required placeholder="Opportunity / Project Inquiry">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="5" required placeholder="Hello Joel, I would like to..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <i class="fa-solid fa-paper-plane"></i> Send Message
+                        </button>
+                        <p class="form-notice" id="formNotice"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Joel Mathew. Built with HTML5 & CSS3.</p>
+            <div class="footer-links">
+                <a href="https://github.com/johnwick077/" target="_blank" rel="noopener">GitHub</a>
+                <a href="https://www.linkedin.com/in/joel-mathew-tech/" target="_blank" rel="noopener">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
